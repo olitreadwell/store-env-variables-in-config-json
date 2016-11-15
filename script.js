@@ -1,9 +1,9 @@
 'use strict';
 
-require('./.gitignore');
+const config = require('./config.json');
 
-let api_key = MY_SUPER_SECRET_KEY;
+debugger;
 
-console.log(A_VARIABLE);
+let api_key = config.api_key;
 
 console.log(api_key);
