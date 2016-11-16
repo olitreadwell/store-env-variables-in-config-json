@@ -1,9 +1,9 @@
 'use strict';
 
-const config = require('./config.json');
+const secrets = require('./secrets.json');
 
 debugger;
 
-let api_key = config.api_key;
+let api_key = secrets.api_key;
 
 console.log(api_key);
